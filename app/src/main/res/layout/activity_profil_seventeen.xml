@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/txJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Unit"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginBottom="24dp"/>
+    <TextView
+        android:id="@+id/txUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Performance"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:layout_marginBottom="24dp"/>
+    <ImageView
+        android:id="@+id/gambarSeventeen"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/performance"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:id="@+id/txNama_panggung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Panggung"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/txNama_asli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Asli"
+        android:textStyle="italic"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/txLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lahir"
+        android:textStyle="italic"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/txPosisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posisi"
+        android:textStyle="italic"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/txInstagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instagram"
+        android:textStyle="italic"
+        android:textSize="17sp"/>
+
+
+
+</LinearLayout>
